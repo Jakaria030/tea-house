@@ -20,6 +20,7 @@
         extend: {
           colors: {
             'dark-1': '#1C1C1C',
+            'dark-2': '#494949',
             'dark-3': '#777777',
             'dark-7': '#F4F4F4',
             'gold': '#FFC850',
@@ -35,6 +36,7 @@
 
 <body class="font-manrope">
 
+  <!-- Main section start -->
   <main class="container mx-auto px-5">
     <!-- banner section start -->
     <section class="flex flex-col lg:flex-row pt-5">
@@ -262,7 +264,72 @@
     </section>
     <!-- news and event section end -->
   </main>
+  <!-- Main section end -->
 
+  <!-- Footer section start -->
+  <footer class="bg-gradient-to-l from-[#FF0000]/10 to-[#FF8938]/10">
+    <div class="container mx-auto px-5 py-10 sm:py-20">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-10">
+        <div class="">
+          <img src="./images/cup.png">
+        </div>
+        <div class="flex flex-col sm:flex-row items-center gap-4">
+          <p class="text-dark-2 font-medium text-xl">Ready to get strated?</p>
+          <button class="text-xl font-bold text-white p-3 rounded-lg bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Get Started</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-10 py-10 sm:py-14">
+        <div class="space-y-3">
+          <h3 class="text-xl font-semibold text-dark-1">Quick Links</h3>
+          <ul class="text-dark-2 space-y-2">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Insurance</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h3 class="text-xl font-semibold text-dark-1">Our Service</h3>
+          <ul class="text-dark-2 space-y-2">
+            <li><a href="#">Life Insurance</a></li>
+            <li><a href="#">Car Insurance</a></li>
+            <li><a href="#">Health Insurance</a></li>
+            <li><a href="#">House Insurance</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h3 class="text-xl font-semibold text-dark-1">Help</h3>
+          <ul class="text-dark-2 space-y-2">
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="space-y-3">
+          <h3 class="text-xl font-semibold text-dark-1">Subscribe to our <br> newsletter</h3>
+          <form>
+            <label class="text-sm text-dark-2" for="email">Email address</label> <br>
+            <input class="bg-transparent outline-none border-b border-b-dark-2" type="email" id="email">
+            <button type="submit" class="size-6 rounded-full bg-gradient-to-r from-[#FF8938] to-[#FF0000]"><i class="fa-solid fa-angle-right text-white"></i></button> <br>
+
+            <div class="space-x-4 pt-8 text-dark-2">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <p class="text-center text-dark-2 font-medium">© 2027 UIDesign.to - All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- Footer section end -->
 </body>
 
 </html>
